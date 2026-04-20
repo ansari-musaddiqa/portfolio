@@ -94,7 +94,7 @@ const skillsData = [
       <polyline points="34 4 46 16 46 34 34 46" />
     </svg>
   `,
-  items: ["jQuery", "Bootstrap", "Tailwind CSS", "React.js", "Next.js"]
+  items: ["jQuery", "Bootstrap", "Tailwind CSS", "React.js"]
 },
 {
   title: "eCommerce Tools",
@@ -141,7 +141,7 @@ const skillsData = [
       <line x1="3" y1="10" x2="21" y2="10"/>
     </svg>
   `,
-  items: ["Responsive Design", "Page Speed Optimization", "Cross-Browser Testing", "Basic SEO"]
+  items: ["Responsive Design", "Page Speed Optimization", "Cross-Browser Testing", "SEO"]
 }
 ];
 
@@ -189,7 +189,7 @@ const projects=[
 },
 {
   "name": "business-agency",
-  "tech": "ReactJS",
+  "tech": "HTML/CSS/JS",
   "image": "images/business-agency.png",
   "video": "vid/agency.mp4"
 },
@@ -213,7 +213,7 @@ const projects=[
 },
 {
   "name": "Portfolio Website",
-  "tech": "ReactJS",
+  "tech": "HTML/CSS/JS",
   "image": "images/portfolio.png",
   "video": "vid/portfolio.mp4"
 },
@@ -501,7 +501,7 @@ class Slider {
     run() {
       this.buildPagination();
       this.attachArrowEvents();
-      this.addDragSwipeEvents();
+      // this.addDragSwipeEvents();
       this.addKeyboardEvents();
       this.initAutoSlide();   
     }
@@ -567,7 +567,7 @@ class Slider {
         const leftSVG = `
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
           <path d="M15 6L9 12L15 18"
-            stroke="#032a40"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -578,7 +578,7 @@ class Slider {
 
         const rightSVG = `
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
-            <path d="M9 6L15 12L9 18" stroke="#032a40" stroke-width="2"
+            <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         `;
