@@ -93,7 +93,13 @@
                     <a href="#home" class="nav-link home-link" data-text="Home">Home</a>
                 </li>
                 <li>
-                    <a href="#sample-slider" class="nav-link" data-text="Services">Services</a>
+                    <a href="#shopify-projects" class="nav-link" data-text="Shopify Implementations">Shopify Implementation</a>
+                </li>
+                <li>
+                    <a href="#sample-slider" class="nav-link" data-text="Technical Skills">Technical Skills</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link" data-text="Services">Services</a>
                 </li>
                 <li>
                     <a href="#about" class="nav-link" data-text="About Me">About Me</a>
@@ -117,7 +123,7 @@
         </nav>
     </header>
     <main class="container" role="main">
-        
+        <!-- banner -->
         <section class="banner" id="home">
             <div class="section-inner">
                 <div class="main-img">
@@ -130,21 +136,1233 @@
                 <div class="bio-text">
                     <h1>Shopify Developer In india | Custom Shopify Store Expert</h1>
                     <p class="subline"><span>🥇 Gold Medalist – B.Sc. IT </span>Bachelor of Science in Computer Applications and Information Technology</p>
+                     <a href="#contact" class="hire-me-btn">Hire Me</a>
                 </div>
+               
             </div>
         </section>
         
-    <section class="skills-wrapper" id="sample-slider" data-showperslide="3" data-showperslidetab="2" data-showperslidemob="1">
-        <h2 class="section-heading">Technical Skills</h2>
-        <div class="skills slider-wrapper">
-            <ul class="language  slider-list" id="slider-list"></ul>     
-            <button class="arrow left" aria-label="Previous Slide"></button>
-            <button class="arrow right" aria-label="Next Slide"></button>      
-            <div class="pagination"></div> 
-        </div>
-    </section>
+         <!-- shopify project -->
+      <section
+        class="shopify-projects"
+        id="shopify-projects"
+        data-showperslide=""
+        data-showperslidetab=""
+        data-showperslidemob=""
+      >
+        <h2 class="section-heading">Custom Shopify Implementations</h2>
+        <h4 class="project-subhead">
+          Shopify features implemented from real client requirements using
+          custom development and theme customization.
+        </h4>
+        <!-- prodcut compare -->
+        <div class="shopify-projects-wrapper">
+          <shopify-projects-wrapper> 
+          <div class="shopify-project-1">
+            <div class="shopify-project-content">
+              <h3>
+                Turn Product Browsing Into Buying With Dynamic Side-by-Side Comparison in Shopify
+              </h3>
 
-        <section class="services">
+              <p class="project-intro">
+                Deliver a frictionless shopping experience with an in-store product comparison tool that keeps customers focused and ready to buy.
+              </p>
+
+              <button class="button mob-hide">View Demo</button>
+
+              <div class="shopify-project-pop-overlay">
+                <div class="shopify-project-pop-overlay-inner">
+                <div class="cross shopify-projects-cross">
+                  <div class="l l1"></div>
+                  <div class="l l2"></div>
+                </div>
+
+                <div class="shopify-project-popup">
+                  <div class="project-video-wrapper">
+                    <div class="video-wrapper">
+                    <video
+                      class="project-video"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                      preload="metadata"
+                    >
+                      <source src="images/product_compare.mp4" type="video/mp4">
+                    </video>
+                    <div class="controls">
+                      <div class="video-bar-wrapper">
+                          <div class="video-bar" style="width: 21.2071%;"></div>
+                      </div>
+                      <div class="buttons">
+                          <button>
+                              <!-- Play Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                    class="play hide"
+                                    width="24" 
+                                    height="24" 
+                                    viewBox="0 0 24 24" 
+                                    fill="currentColor">
+                                  <path d="M8 5v14l11-7z"/>
+                                </svg>
+                                <!-- Pause Icon -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" 
+                                      class="pause"
+                                      width="24" 
+                                      height="24" 
+                                      viewBox="0 0 24 24" 
+                                      fill="currentColor">
+                                    <path d="M6 5h4v14H6zm8 0h4v14h-4z"/>
+                                  </svg>
+                          </button>
+                      </div>
+                        <button class="fullscreen-btn">
+                          ⛶
+                       </button>
+                  </div>
+                  </div>
+                    </div>
+                  <div class="project-accordion">
+                    <!-- Problem -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-compare-problem"
+                        name="compare"
+                        checked
+                      />
+
+                      <label
+                        for="accordion-compare-problem"
+                        class="accordion-title"
+                      >
+                        <span>⚠️ Problem</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content active">
+                        <p>
+                          Customers often open multiple tabs or leave the store to compare products, creating friction and slowing purchase decisions.
+                        </p>
+
+                        <ul>
+                            <li>Customers struggle to compare similar products efficiently</li>
+                            <li>Multiple browser tabs create a fragmented shopping experience</li>
+                            <li>Product evaluation takes longer than necessary</li>
+                            <li>Comparison friction can reduce conversion opportunities</li>
+                            </ul>
+                      </div>
+                    </div>
+
+                    <!-- Solution -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-compare-solution"
+                        name="compare"
+                      />
+
+                      <label
+                        for="accordion-compare-solution"
+                        class="accordion-title"
+                      >
+                        <span>💡 Solution</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                          I developed a custom Shopify product comparison feature
+                            that allows customers to select products and compare them
+                            side-by-side within the store. The comparison table updates
+                            instantly without page reloads, creating a faster and more
+                            seamless product evaluation experience.
+                        </p>
+
+                       <ul>
+                        <li>Dynamic product selection dropdown</li>
+                        <li>Instant side-by-side product comparison</li>
+                        <li>Add and remove products without refresh</li>
+                        <li>Smooth interactive shopping experience</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Business Impact -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-compare-impact"
+                        name="compare"
+                      />
+
+                      <label
+                        for="accordion-compare-impact"
+                        class="accordion-title"
+                      >
+                        <span>📈 Business Impact</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                          <p>
+                            By allowing customers to compare products side-by-side within the
+                            store, the feature simplifies product evaluation and helps shoppers
+                            understand key differences without switching between multiple pages
+                            or browser tabs.
+                            </p>
+
+                            <ul>
+                            <li>Reduced need for multiple browser tabs</li>
+                            <li>Simplified product comparison process</li>
+                            <li>Improved accessibility of product information</li>
+                            <li>Smoother shopping experience for customers</li>
+                            </ul>
+                                            
+                      </div>
+                    </div>
+
+                    <!-- Features -->
+                    <!-- <div class="accordion-item">
+                      <input type="checkbox" id="accordion-compare-features" />
+
+                      <label
+                        for="accordion-compare-features"
+                        class="accordion-title"
+                      >
+                        <span>✨ Features</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <ul>
+                          <li>Dynamic product dropdown selection</li>
+                          <li>Side-by-side comparison layout</li>
+                          <li>Instant add/remove functionality</li>
+                          <li>Page reload-free experience</li>
+                          <li>Responsive comparison design</li>
+                          <li>Smooth UI interactions and animations</li>
+                        </ul>
+                      </div>
+                    </div> -->
+
+                    <!-- Technical Details -->
+                    <div class="accordion-item">
+                      <input type="checkbox" id="accordion-compare-tech" />
+
+                      <label
+                        for="accordion-compare-tech"
+                        class="accordion-title"
+                      >
+                        <span>⚙️ Technical Details</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <ul>
+                          <li>Shopify Section Rendering API</li>
+                          <li>JavaScript</li>
+                          <li>Dynamic DOM rendering</li>
+                          <li>AJAX-based updates</li>
+                          <li>Shopify Liquid</li>
+                          <li>Custom Shopify theme development</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  </div>
+                  </div>
+                </div>
+              </div>
+            
+
+            <div class="shopify-project-image">
+              <img
+                src="images/product_compare.png"
+                alt="Dynamic Shopify product comparison feature with side by side product comparison"
+                width="1400"
+                height="800"
+                loading="lazy"
+                decoding="async"
+                class="project-thumbnail__image"
+              />
+                <button class="button desk-hide">View Demo</button>
+            </div>
+          </div>
+          </shopify-projects-wrapper>
+        </div>
+        <!-- product detail table -->
+        <div class="shopify-projects-wrapper">
+          <shopify-projects-wrapper>
+          <div class="shopify-project-1">
+  <div class="shopify-project-content">
+    <h3>
+        Avoid Lost Sales With Real-Time Product Specs via Shopify Metafields
+    </h3>
+
+    <p class="project-intro">
+       The dynamic product details table ensures customers always see
+    accurate variant-specific information, making it easier to understand
+    product specifications and compare available options.
+    </p>
+
+      <button class="button mob-hide">View Demo</button>
+
+    <div class="shopify-project-pop-overlay">
+      <div class="shopify-project-pop-overlay-inner">
+
+      <div class="shopify-projects-cross">
+        <div class="l l1"></div>
+        <div class="l l2"></div>
+      </div>
+
+      <div class="shopify-project-popup">
+        <div class="project-video-wrapper">
+          <div class="video-wrapper">
+                    <video
+                      class="project-video"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                      preload="metadata"
+                    >
+                      <source src="images/product-details.mp4" type="video/mp4">
+                    </video>
+                   
+                    <div class="controls">
+                      <div class="video-bar-wrapper">
+                          <div class="video-bar" style="width: 21.2071%;"></div>
+                      </div>
+                      <div class="buttons">
+                          <button>
+                              <!-- Play Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                    class="play hide"
+                                    width="24" 
+                                    height="24" 
+                                    viewBox="0 0 24 24" 
+                                    fill="currentColor">
+                                  <path d="M8 5v14l11-7z"/>
+                                </svg>
+                                <!-- Pause Icon -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" 
+                                      class="pause"
+                                      width="24" 
+                                      height="24" 
+                                      viewBox="0 0 24 24" 
+                                      fill="currentColor">
+                                    <path d="M6 5h4v14H6zm8 0h4v14h-4z"/>
+                                  </svg>
+                          </button>
+                      </div>
+                      <button class="fullscreen-btn">
+                          ⛶
+                       </button>
+                  </div>
+                   </div>
+          </div>
+        <div class="project-accordion">
+
+          <!-- Problem -->
+          <div class="accordion-item">
+            <input
+              type="checkbox"
+              id="accordion-details-problem"
+              name="details"
+              checked
+            />
+
+            <label
+              for="accordion-details-problem"
+              class="accordion-title"
+            >
+              <span>⚠️ Problem</span>
+              <span class="accordion-icon">+</span>
+            </label>
+
+            <div class="accordion-content active">
+              <p>
+                Many Shopify stores sell products with variants that have different
+                specifications, but standard product pages often display the same
+                information for every variant, making it harder for customers to find
+                accurate details.
+                </p>
+
+              <ul>
+                <li>Static product tables create inaccurate information</li>
+                <li>Variant-specific details are difficult to manage</li>
+                <li>Customers struggle to compare specifications</li>
+                 <li>Managing product information becomes difficult</li>
+                <li>Unclear product details can confuse customers</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Solution -->
+          <div class="accordion-item">
+            <input
+              type="checkbox"
+              id="accordion-details-solution"
+              name="details"
+            />
+
+            <label
+              for="accordion-details-solution"
+              class="accordion-title"
+            >
+              <span>💡 Solution</span>
+              <span class="accordion-icon">+</span>
+            </label>
+
+            <div class="accordion-content">
+              <p>
+                I built a dynamic Shopify product details table that fetches
+                metafield data and updates product specifications instantly when
+                customers change variants without reloading the page.
+              </p>
+
+              <ul>
+                <li>Dynamic metafield-based product tables</li>
+                <li>Real-time variant-specific detail updates</li>
+                <li>Instant content rendering without refresh</li>
+                <li>Structured and easy-to-read product information</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Business Impact -->
+          <div class="accordion-item">
+            <input
+              type="checkbox"
+              id="accordion-details-impact"
+              name="details"
+            />
+
+            <label
+              for="accordion-details-impact"
+              class="accordion-title"
+            >
+              <span>📈 Business Impact</span>
+              <span class="accordion-icon">+</span>
+            </label>
+
+            <div class="accordion-content">
+              <p>
+                  Customers can view accurate product specifications for each variant,
+                making it easier to understand product details without searching
+                through descriptions or switching between pages.
+              </p>
+
+              <ul>
+                <li>Improved customer confidence</li>
+                <li>Better product information clarity</li>
+                <li>Enhanced variant browsing experience</li>
+                <li>More professional product presentation</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Features -->
+          <!-- <div class="accordion-item">
+            <input
+              type="checkbox"
+              id="accordion-details-features"
+            />
+
+            <label
+              for="accordion-details-features"
+              class="accordion-title"
+            >
+              <span>✨ Features</span>
+              <span class="accordion-icon">+</span>
+            </label>
+
+            <div class="accordion-content">
+              <ul>
+                <li>Dynamic metafield data rendering</li>
+                <li>Variant-based table updates</li>
+                <li>Page reload-free experience</li>
+                <li>Structured product specification tables</li>
+                <li>Responsive table layout</li>
+                <li>Smooth real-time content updates</li>
+              </ul>
+            </div>
+          </div> -->
+
+          <!-- Technical Details -->
+          <div class="accordion-item">
+            <input
+              type="checkbox"
+              id="accordion-details-tech"
+            />
+
+            <label
+              for="accordion-details-tech"
+              class="accordion-title"
+            >
+              <span>⚙️ Technical Details</span>
+              <span class="accordion-icon">+</span>
+            </label>
+
+            <div class="accordion-content">
+              <ul>
+                <li>Shopify Metafields</li>
+                <li>JavaScript</li>
+                <li>Dynamic DOM updates</li>
+                <li>Variant change listeners</li>
+                <li>Shopify Liquid</li>
+                <li>Custom Shopify theme development</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="shopify-project-image">
+    <img
+      src="images/product-details.png"
+      alt="Dynamic Shopify product details table with metafield-based variant updates"
+      width="1400"
+      height="800"
+      loading="lazy"
+      decoding="async"
+      class="project-thumbnail__image"
+    />
+      <button class="button desk-hide">View Demo</button>
+      
+  </div>
+          </div>
+          </shopify-projects-wrapper>
+        </div>
+        <!-- quiz project -->
+        <div class="shopify-projects-wrapper">
+          <shopify-projects-wrapper>
+          <div class="shopify-project-1">
+            <div class="shopify-project-content">
+              <h3>
+                Boost Shopify Conversions With a Smart Product Recommendation Quiz
+              </h3>
+              <p class="project-intro">
+                  Help customers find the right products faster with personalized
+                  recommendations and a guided shopping experience. 
+              </p>
+                <button class="button mob-hide">View Demo</button>
+
+              <div class="shopify-project-pop-overlay">
+                <div class="shopify-project-pop-overlay-inner">
+                <div class="shopify-projects-cross">
+                  <div class="l l1"></div>
+                  <div class="l l2"></div>
+                </div>
+                <div class="shopify-project-popup">
+                  <div class="project-video-wrapper">
+                    <div class="video-wrapper">
+                    <video
+                      class="project-video"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                      preload="metadata"
+                    >
+                      <source src="images/product_quiz.mp4" type="video/mp4">
+                    </video>
+                    
+                    <div class="controls">
+                      <div class="video-bar-wrapper">
+                          <div class="video-bar" style="width: 21.2071%;"></div>
+                      </div>
+                      <div class="buttons">
+                          <button>
+                              <!-- Play Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                    class="play hide"
+                                    width="24" 
+                                    height="24" 
+                                    viewBox="0 0 24 24" 
+                                    fill="currentColor">
+                                  <path d="M8 5v14l11-7z"/>
+                                </svg>
+                                <!-- Pause Icon -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" 
+                                      class="pause"
+                                      width="24" 
+                                      height="24" 
+                                      viewBox="0 0 24 24" 
+                                      fill="currentColor">
+                                    <path d="M6 5h4v14H6zm8 0h4v14h-4z"/>
+                                  </svg>
+                          </button>
+                      </div>
+                      <button class="fullscreen-btn">
+                          ⛶
+                       </button>
+                  </div>
+                    </div>
+                  </div>
+                  <div class="project-accordion">
+                    <!-- Problem -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-problem"
+                        name="quiz"
+                        checked
+                      />
+
+                      <label for="accordion-problem" class="accordion-title">
+                        <span>⚠️ Problem</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                           Many Shopify stores offer a wide range of products, making it difficult
+                            for customers to decide which option best matches their needs.  
+                        </p>
+
+                        <ul>
+                          <li>
+                            Too many product options create decision fatigue
+                          </li>
+                          <li>
+                            Customers leave without finding suitable products
+                          </li>
+                          <li>Poor product discovery reduces conversions</li>
+                          <li>
+                            Generic shopping experience lacks personalization
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Solution -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-solution"
+                        name="quiz"
+                      />
+
+                      <label for="accordion-solution" class="accordion-title">
+                        <span>💡 Solution</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                           I developed a custom Shopify product quiz that guides customers through
+                            a series of questions and recommends products based on their answers,
+                            creating a more personalized shopping experience.
+                        </p>
+
+                        <ul>
+                           <li>Interactive question-based product finder</li>
+                            <li>Personalized product recommendations</li>
+                            <li>Dynamic results based on customer responses</li>
+                            <li>Smooth and user-friendly experience</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Business Impact -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-impact"
+                        name="quiz"
+                      />
+
+                      <label for="accordion-impact" class="accordion-title">
+                        <span>📈 Business Impact</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                          The product quiz helps customers narrow down their options and quickly
+                        discover products that match their preferences, making the shopping
+                        process simpler and more engaging.
+                        </p>
+
+                        <ul>
+                          <li>Improved product discovery</li>
+                          <li>Better customer engagement</li>
+                          <li>Reduced app subscription costs</li>
+                          <li>More personalized shopping experience</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Features -->
+                    <!-- <div class="accordion-item">
+                      <input type="checkbox" id="accordion-features" />
+
+                      <label for="accordion-features" class="accordion-title">
+                        <span>✨ Features</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <ul>
+                          <li>Custom multi-step quiz flow</li>
+                          <li>Dynamic product recommendation engine</li>
+                          <li>Interactive answer selection</li>
+                          <li>Responsive mobile-friendly design</li>
+                          <li>Conditional question rendering</li>
+                          <li>Shopify metafield integration</li>
+                        </ul>
+                      </div>
+                    </div> -->
+
+                    <!-- Technical Details -->
+                    <div class="accordion-item">
+                      <input type="checkbox" id="accordion-tech" />
+
+                      <label for="accordion-tech" class="accordion-title">
+                        <span>⚙️ Technical Details</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <ul>
+                          <li>Shopify Liquid</li>
+                          <li>JavaScript</li>
+                          <li>CSS</li>
+                          <li>Metafields</li>
+                          <li>Dynamic DOM rendering</li>
+                          <li>Custom Shopify theme development</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="shopify-project-image">
+              <picture>
+                <source
+                  media="(max-width: 749px)"
+                  srcset="images/product_quiz.png"
+                />
+
+                <img
+                  src="images/product_quiz.png"
+                  alt="Custom Shopify product quiz with personalized product recommendations"
+                  width="1400"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
+                  class="project-thumbnail__image"
+                />
+                  <button class="button desk-hide">View Demo</button>
+              </picture>
+            </div>
+          </div>
+          </shopify-projects-wrapper>
+        </div>
+        <!-- infinite scroll -->
+        <div class="shopify-projects-wrapper">
+          <shopify-projects-wrapper>
+          <div class="shopify-project-1">
+            <div class="shopify-project-content">
+              <h3>
+                Keep Customers Browsing Longer With Seamless Infinite Scroll on
+                Shopify Collection Pages
+              </h3>
+
+              <p class="project-intro">
+                Many Shopify stores lose customer attention when pagination
+                interrupts product browsing and creates unnecessary friction.
+              </p>
+
+              <button class="button mob-hide">View Demo</button>
+              
+
+              <div class="shopify-project-pop-overlay">
+                <div class="shopify-project-pop-overlay-inner">
+                <div class="shopify-projects-cross">
+                  <div class="l l1"></div>
+                  <div class="l l2"></div>
+                </div>
+
+                <div class="shopify-project-popup">
+                  <div class="project-video-wrapper">
+                    <div class="video-wrapper">
+                    <video
+                      class="project-video"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                      preload="metadata"
+                    >
+                      <source src="images/infinite.mp4" type="video/mp4">
+                    </video>
+                    
+                    <div class="controls">
+                      <div class="video-bar-wrapper">
+                          <div class="video-bar" style="width: 21.2071%;"></div>
+                      </div>
+                      <div class="buttons">
+                          <button>
+                              <!-- Play Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                    class="play hide"
+                                    width="24" 
+                                    height="24" 
+                                    viewBox="0 0 24 24" 
+                                    fill="currentColor">
+                                  <path d="M8 5v14l11-7z"/>
+                                </svg>
+                                <!-- Pause Icon -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" 
+                                      class="pause"
+                                      width="24" 
+                                      height="24" 
+                                      viewBox="0 0 24 24" 
+                                      fill="currentColor">
+                                    <path d="M6 5h4v14H6zm8 0h4v14h-4z"/>
+                                  </svg>
+                          </button>
+                      </div>
+                      <button class="fullscreen-btn">
+                          ⛶
+                       </button>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="project-accordion">
+                    <!-- Problem -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-infinite-problem"
+                        name="infinite"
+                        checked
+                      />
+
+                      <label
+                        for="accordion-infinite-problem"
+                        class="accordion-title"
+                      >
+                        <span>⚠️ Problem</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content ">
+                        <p>
+                          Traditional Shopify pagination often interrupts the
+                          shopping experience and reduces product discovery,
+                          especially on mobile devices.
+                        </p>
+
+                        <ul>
+                          <li>Customers stop browsing after a few pages</li>
+                          <li>Pagination creates unnecessary clicks</li>
+                          <li>Browsing feels less smooth on mobile</li>
+                          <li>Large collections become harder to explore</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Solution -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-infinite-solution"
+                        name="infinite"
+                      />
+
+                      <label
+                        for="accordion-infinite-solution"
+                        class="accordion-title"
+                      >
+                        <span>💡 Solution</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                          I implemented a fully custom infinite scroll solution
+                          for the Shopify Dawn theme that dynamically loads
+                          products without page refreshes.
+                        </p>
+
+                        <ul>
+                          <li>Automatic product loading while scrolling</li>
+                          <li>
+                            Smooth browsing experience without interruptions
+                          </li>
+                          <li>Custom implementation without heavy apps</li>
+                          <li>Optimized for both desktop and mobile users</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Business Impact -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-infinite-impact"
+                        name="infinite"
+                      />
+
+                      <label
+                        for="accordion-infinite-impact"
+                        class="accordion-title"
+                      >
+                        <span>📈 Business Impact</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                          Infinite scroll creates a more engaging shopping
+                          experience by helping customers discover more products
+                          naturally without friction.
+                        </p>
+
+                        <ul>
+                          <li>Improved customer engagement</li>
+                          <li>Better product discovery</li>
+                          <li>Reduced browsing interruptions</li>
+                          <li>More modern ecommerce experience</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Features -->
+                    <!-- <div class="accordion-item">
+                      <input type="checkbox" id="accordion-infinite-features" />
+
+                      <label
+                        for="accordion-infinite-features"
+                        class="accordion-title"
+                      >
+                        <span>✨ Features</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <ul>
+                          <li>Dynamic product loading</li>
+                          <li>AJAX-based collection updates</li>
+                          <li>Pagination-free browsing</li>
+                          <li>Mobile optimized experience</li>
+                          <li>Loading state animations</li>
+                          <li>Shopify Dawn theme integration</li>
+                        </ul>
+                      </div>
+                    </div> -->
+
+                    <!-- Technical Details -->
+                    <div class="accordion-item">
+                      <input type="checkbox" id="accordion-infinite-tech" />
+
+                      <label
+                        for="accordion-infinite-tech"
+                        class="accordion-title"
+                      >
+                        <span>⚙️ Technical Details</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <ul>
+                          <li>Shopify Liquid</li>
+                          <li>JavaScript</li>
+                          <li>Fetch API</li>
+                          <li>AJAX Rendering</li>
+                          <li>CSS Animations</li>
+                          <li>Custom Shopify theme development</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="shopify-project-image">
+              <picture>
+                <source
+                  media="(max-width: 749px)"
+                  srcset="images/infinite.png"
+                />
+
+                <img
+                  src="images/infinite.png"
+                  alt="Infinite scroll implementation on Shopify collection page"
+                  width="1400"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
+                  class="project-thumbnail__image"
+                />
+                  <button class="button desk-hide">View Demo</button>
+              </picture>
+            </div>
+          </div>
+          </shopify-projects-wrapper>
+        </div>
+        <!-- product availability at location-->
+        <div class="shopify-projects-wrapper">
+          <shopify-projects-wrapper>
+          <div class="shopify-project-1">
+            <div class="shopify-project-content">
+              <h3>
+                Improve Customer Confidence With Real-Time Product Availability
+                by Location
+              </h3>
+
+              <p class="project-intro">
+                Unclear delivery and pickup availability often leads to abandoned carts—customers hesitate when they can’t instantly confirm if a product can reach them.
+              </p>
+
+              <button class="button mob-hide">View Demo</button>
+
+              <div class="shopify-project-pop-overlay">
+              <div class="shopify-project-pop-overlay-inner">
+                <div class="shopify-projects-cross">
+                  <div class="l l1"></div>
+                  <div class="l l2"></div>
+                </div>
+
+                <div class="shopify-project-popup">
+                  <div class="project-video-wrapper">
+                    <div class="video-wrapper">
+                    <video
+                      class="project-video"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                      preload="metadata"
+                    >
+                      <source src="images/prodcut_available.mp4" type="video/mp4">
+                    </video>
+                   
+                    <div class="controls">
+                      <div class="video-bar-wrapper">
+                          <div class="video-bar" style="width: 21.2071%;"></div>
+                      </div>
+                      <div class="buttons">
+                          <button>
+                              <!-- Play Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                    class="play hide"
+                                    width="24" 
+                                    height="24" 
+                                    viewBox="0 0 24 24" 
+                                    fill="currentColor">
+                                  <path d="M8 5v14l11-7z"/>
+                                </svg>
+                                <!-- Pause Icon -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" 
+                                      class="pause"
+                                      width="24" 
+                                      height="24" 
+                                      viewBox="0 0 24 24" 
+                                      fill="currentColor">
+                                    <path d="M6 5h4v14H6zm8 0h4v14h-4z"/>
+                                  </svg>
+                          </button>
+                      </div>
+                      <button class="fullscreen-btn">
+                          ⛶
+                       </button>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="project-accordion">
+                    <!-- Problem -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-availability-problem"
+                        name="availability"
+                        checked
+                      />
+
+                      <label
+                        for="accordion-availability-problem"
+                        class="accordion-title"
+                      >
+                        <span>⚠️ Problem</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                          Customers often leave Shopify stores when inventory
+                          availability is unclear or when they cannot quickly
+                          check pickup and shipping status for their location.
+                        </p>
+
+                        <ul>
+                          <li>Confusing inventory visibility for customers</li>
+                          <li>Unclear pickup availability by location</li>
+                          <li>Frustration during variant selection</li>
+                          <li>Reduced customer trust and buying confidence</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Solution -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-availability-solution"
+                        name="availability"
+                      />
+
+                      <label
+                        for="accordion-availability-solution"
+                        class="accordion-title"
+                      >
+                        <span>💡 Solution</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                          I developed a custom Shopify product availability
+                          system where customers can switch between locations
+                          and instantly view shipping and pickup availability
+                          based on the selected variant.
+                        </p>
+
+                        <ul>
+                          <li>Dynamic location switching functionality</li>
+                          <li>Real-time pickup availability updates</li>
+                          <li>Shipping availability based on inventory</li>
+                          <li>Instant variant-based status changes</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Business Impact -->
+                    <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-availability-impact"
+                        name="availability"
+                      />
+
+                      <label
+                        for="accordion-availability-impact"
+                        class="accordion-title"
+                      >
+                        <span>📈 Business Impact</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <p>
+                          The feature improves transparency during the buying
+                          journey and helps customers make faster purchasing
+                          decisions with more confidence.
+                        </p>
+
+                        <ul>
+                          <li>Improved customer trust</li>
+                          <li>Better shopping experience</li>
+                          <li>Reduced purchase hesitation</li>
+                          <li>More transparent inventory communication</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- Features -->
+                    <!-- <div class="accordion-item">
+                      <input
+                        type="checkbox"
+                        id="accordion-availability-features"
+                      />
+
+                      <label
+                        for="accordion-availability-features"
+                        class="accordion-title"
+                      >
+                        <span>✨ Features</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <ul>
+                          <li>Dynamic location toggle button</li>
+                          <li>Real-time inventory availability updates</li>
+                          <li>Variant-based pickup availability</li>
+                          <li>Shipping availability detection</li>
+                          <li>Interactive product status messaging</li>
+                          <li>Mobile responsive implementation</li>
+                        </ul>
+                      </div>
+                    </div> -->
+
+                    <!-- Technical Details -->
+                    <div class="accordion-item">
+                      <input type="checkbox" id="accordion-availability-tech" />
+
+                      <label
+                        for="accordion-availability-tech"
+                        class="accordion-title"
+                      >
+                        <span>⚙️ Technical Details</span>
+                        <span class="accordion-icon">+</span>
+                      </label>
+
+                      <div class="accordion-content">
+                        <ul>
+                          <li>Shopify Liquid</li>
+                          <li>JavaScript</li>
+                          <li>Variant change listeners</li>
+                          <li>Dynamic DOM updates</li>
+                          <li>Inventory availability logic</li>
+                          <li>Custom Shopify theme development</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="shopify-project-image">
+              <img
+                src="images/product_available.png"
+                alt="Shopify product availability status by location and variant"
+                width="1400"
+                height="800"
+                loading="lazy"
+                decoding="async"
+                class="project-thumbnail__image"
+              />
+                <button class="button desk-hide">View Demo</button>
+            </div>
+          </div>
+          </shopify-projects-wrapper>
+        </div>
+      </section>
+
+    <!-- services -->
+        <section class="services" id="services">
+            <h2 class="section-heading">Services</h2>   
             <div class="services-inner">
                     <div class="service">
                         <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
@@ -183,6 +1401,18 @@
                     </div>        
                     </div>            
                 </section>
+
+        <!-- technical skill -->
+    <section class="skills-wrapper" id="sample-slider" data-showperslide="3" data-showperslidetab="2" data-showperslidemob="1">
+        <h2 class="section-heading">Technical Skills</h2>
+        <div class="skills slider-wrapper">
+            <ul class="language  slider-list" id="slider-list"></ul>     
+            <button class="arrow left" aria-label="Previous Slide"></button>
+            <button class="arrow right" aria-label="Next Slide"></button>      
+            <div class="pagination"></div> 
+        </div>
+    </section>
+
                 <!-- about me -->
                  <section id="about" class="about">
                     <div class="section-inner">
@@ -193,15 +1423,15 @@
                                         <p>
                                         I’m <strong>Musaddiqa Ansari</strong> — a <strong>Gold Medalist in B.Sc. IT</strong> and a passionate 
                                         <strong>Shopify Website Developer</strong> with a deep love for design and clean, efficient code. 
-                                        Over the years, I’ve completed <strong>80+ web projects</strong> using HTML, CSS, JavaScript, and Shopify’s Liquid framework.
+                                        Over the years, I’ve completed <strong>"80 Features and Projects Built</strong> using HTML, CSS, JavaScript, and Shopify’s Liquid framework.
                                         </p><br>
                                         <p>
                                         I specialize in building fast, SEO-friendly Shopify stores for businesses looking to grow their online presence globally.
-                                        </p>
-                                        <p>
+                                        </p><br>
+                                        <p>                                            
                                         My goal is to help businesses create elegant, high-performing online stores that deliver seamless 
-                                        shopping experiences. I combine strong technical expertise with creativity to bring every 
-                                        client’s vision to life.
+                                        shopping experiences. I enjoy turning complex Shopify requirements into simple user experiences.
+                                            My favorite projects involve custom JavaScript functionality, Shopify metafields, and performance-focused storefront improvements.
                                         </p>
 
 
@@ -244,14 +1474,14 @@
                                                 <li>Performance optimization</li>
                                                 <li>Real-world UI interactions</li>
                                             </ul>
-                                            <p>
+                                            <!-- <p>
                                             As part of my learning, I have also worked on practical store implementations to strengthen my skills.
                                             </p>
 
                                             <p>
                                                 🔗 Store URL: <a href="https://bike-shack-1.myshopify.com">Bike Shack</a><br>
                                                 🔐 Password: deblan (for preview access)
-                                            </p>
+                                            </p> -->
                                         
                                 </div>
                             </div>
@@ -259,7 +1489,7 @@
      </section>
                     <!-- øroject -->
      <section class="sec-project" id="sec-project" data-showperslide="2" data-showperslidetab="1" data-showperslidemob="1">
-        <h2 class="section-heading">My Projects</h2>
+        <h2 class="section-heading">Other Projects</h2>
         <h4 class="project-subhead" >Here are some of my Shopify and web development projects, including custom theme development,
 UI/UX improvements, and performance optimization. These projects include both real implementations
 and practice work inspired by industry-level courses, along with my own original builds.</h4>
@@ -337,5 +1567,6 @@ and practice work inspired by industry-level courses, along with my own original
                     </video>
                 </div>
     <script src="script.js" defer></script>
+    <script src="project-script.js" defer></script>
 </body>
 </html>
