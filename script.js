@@ -56,7 +56,7 @@ let ticking = false;
 window.addEventListener('scroll', () => {
 if (!ticking) {
   window.requestAnimationFrame(() => {
-    const sectionTop = aboutSection.offsetTop;
+    const sectionTop = aboutSection?.offsetTop;
     const scrollPos = window.scrollY + window.innerHeight;
 
     if (!counterStarted && scrollPos > sectionTop) {
@@ -374,6 +374,7 @@ vidWrapper.setAttribute("aria-hidden", "true");
 video.load();         // ▶️ play it
 video.currentTime = 0; // ⏮️ start from beginning
 video.play().catch(()=>{}); 
+vidWrapper.classList.add("active");
 bodyelm.classList.add('popup');
 }
 
@@ -382,6 +383,7 @@ video.pause();
 vidSource.src = '';
 video.load();
 bodyelm.classList.remove('popup');
+vidWrapper.classList.remove("active");
 vidWrapper.setAttribute("aria-hidden", "false");
 }
 
@@ -700,6 +702,8 @@ Second parameter is an array of the media queries (breaking points) where the nu
 
 // Create a new slider and run it
 document.addEventListener('DOMContentLoaded', () => {
-new Slider('sample-slider', [1920,1024,600]);
-new Slider('sec-project', [1920,1024,600]);
+  if(document.getElementById("sample-slider"))
+    new Slider('sample-slider', [1920,1024,600]);
+  if(document.getElementById("sec-project"))  
+    new Slider('sec-project', [1920,1024,600]);
 });
